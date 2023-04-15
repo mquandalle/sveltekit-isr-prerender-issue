@@ -8,7 +8,7 @@
   <li>
     First redeploy the app to reset the ISR cache : <button
       on:click={() => fetch("/redeploy-app")}>Redeploy</button
-    > (wait ~10s for Vercel deployment to complete)
+    > (wait ~20s for Vercel deployment to complete)
   </li>
   <li>
     Then visit the <a href="/isr-page">ISR page</a>. It takes some time to load
