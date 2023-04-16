@@ -4,7 +4,7 @@
   instantly on the first visit.
 </p>
 <p>But it's not the case, the first load is slow. To reproduce the issue:</p>
-<ul>
+<ol>
   <li>
     First redeploy the app to reset the ISR cache : <button
       on:click={() => fetch("/redeploy-app")}>Redeploy</button
@@ -15,7 +15,7 @@
     the first time.
   </li>
   <li>Subsequent visits are fast as the ISR page is cached.</li>
-</ul>
+</ol>
 <p>
   <a href="https://github.com/mquandalle/sveltekit-isr-prerender-issue"
     >Source code</a
